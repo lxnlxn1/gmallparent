@@ -62,6 +62,7 @@ public class SearchServiceImpl implements SearchService {
     private RestHighLevelClient restHighLevelClient;
 
 
+
     //上架商品列表
     @Override
     public void upperGoods(Long skuId) {
